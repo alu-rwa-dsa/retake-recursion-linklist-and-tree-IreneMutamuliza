@@ -1,9 +1,5 @@
 def recursion(string):
 
-    def funct(numbers):
-        if len(numbers) == 0:
-            return 0, 0
-
         Odd, Even = funct(numbers[1:])
 
         if int(numbers[0]) % 2 == 0:
